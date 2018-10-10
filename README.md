@@ -21,7 +21,7 @@ Enjoy!
 `AssociatedValues` is available through [CocoaPods](http://cocoapods.org). To install, simply include the following lines in your podfile:
 ```ruby
 use_frameworks!
-pod 'AssociatedValues'
+pod 'AssociatedValues-DominicMDev'
 ```
 Be sure to import the module at the top of your .swift files:
 ```swift
