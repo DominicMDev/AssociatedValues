@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name          = 'AssociatedValues-DominicMDev'
     s.module_name   = 'AssociatedValues'
-    s.version       = '4.0.0'
+    s.version       = '4.1.0'
     s.swift_version = '4.2'
     s.summary       = 'Associated Objects For Swift Values'
     s.description   = <<-DESC
