@@ -11,7 +11,6 @@
 		A2C94EE31C7775820043535F /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C94EE21C7775820043535F /* AssociatedValues.swift */; };
 		A2C94EEB1C7775AD0043535F /* AssociatedValuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C94EEA1C7775AD0043535F /* AssociatedValuesTests.swift */; };
 		A2C94EED1C7775AD0043535F /* AssociatedValues.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C94ED71C7775740043535F /* AssociatedValues.framework */; };
-		A2C94EF41C7776060043535F /* AssociatedValues.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2C94EF31C7776060043535F /* AssociatedValues.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8062BE19216EC3A400064884 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8062BE1A216EC3A400064884 /* AssociatedValues-DominicMDev.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = "AssociatedValues-DominicMDev.podspec"; sourceTree = "<group>"; };
+		8062BE1B216EC3A500064884 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A2C94ED71C7775740043535F /* AssociatedValues.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssociatedValues.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C94EDA1C7775740043535F /* AssociatedValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedValues.h; sourceTree = "<group>"; };
 		A2C94EDC1C7775740043535F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +34,6 @@
 		A2C94EE81C7775AD0043535F /* AssociatedValuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssociatedValuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C94EEA1C7775AD0043535F /* AssociatedValuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedValuesTests.swift; sourceTree = "<group>"; };
 		A2C94EEC1C7775AD0043535F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2C94EF31C7776060043535F /* AssociatedValues.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = AssociatedValues.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8062BE18216EC38B00064884 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				8062BE1A216EC3A400064884 /* AssociatedValues-DominicMDev.podspec */,
+				8062BE1B216EC3A500064884 /* LICENSE */,
+				8062BE19216EC3A400064884 /* README.md */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
 		A2C94ECD1C7775740043535F = {
 			isa = PBXGroup;
 			children = (
+				8062BE18216EC38B00064884 /* Metadata */,
 				A2C94ED91C7775740043535F /* AssociatedValues */,
 				A2C94EE91C7775AD0043535F /* AssociatedValuesTests */,
 				A2C94ED81C7775740043535F /* Products */,
-				A2C94EF31C7776060043535F /* AssociatedValues.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C94EF41C7776060043535F /* AssociatedValues.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
